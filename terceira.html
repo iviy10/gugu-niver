@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>seu dia ratinho</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fce4ec, #f8bbd0);
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: white;
+      border: 6px solid #ffb6c1;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+      position: relative;
+      z-index: 2;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    h1 span {
+      font-size: 24px;
+    }
+
+    .foto {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .foto img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      border: 3px solid #ffb6c1;
+    }
+
+    .texto {
+      font-size: 17px;
+      line-height: 1.7;
+      color: #b0004f;
+      margin: 15px 0;
+      text-align: justify;
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      font-size: 17px;
+      color: #a3005f;
+    }
+
+    .voltar {
+      display: block;
+      margin: 30px auto 0;
+      padding: 12px 25px;
+      font-size: 16px;
+      background: #ffb6c1;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    .voltar:hover {
+      background: #ff92aa;
+    }
+
+    /* Decorações do Garfield */
+    .decor-esquerda, .decor-direita {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100px;
+      z-index: 1;
+      opacity: 0.9;
+    }
+
+    .decor-esquerda {
+      left: 0;
+    }
+
+    .decor-direita {
+      right: 0;
+    }
+
+    @media (max-width: 768px) {
+      .decor-esquerda, .decor-direita {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Decorações do Garfield -->
+  <img src="garfield-direita.png" class="decor-direita" alt="garfield decoração direita">
+
+  <div class="container">
+    <h1>FELIZ NIVER, AMOR <span>💙</span></h1>
+
+    <div class="foto">
+      <img src="foto1.jpg" alt="Foto 1">
+    </div>
+    <p class="texto">
+      Ver você assim, todo bobo no carrinho com sua família, só me dá mais vontade de viver isso ao seu lado também. Seu jeitinho leve e cheio de carinho me fez me apaixonar em vc.. Eu amo cada pedacinho seu.
+    </p>
+
+    <div class="foto">
+      <img src="foto2.jpg" alt="Foto 2">
+    </div>
+    <p class="texto">
+      Mesmo com essa carinha séria, eu enxergo o menino mais doce que já conheci. Teu olhar me passa segurança, paz. e um friozinho na barriga toda vez que penso em você. Eu queria poder te abraçar agora e te dizer o quanto você é importante pra mim.
+    </p>
+
+    <div class="foto">
+      <img src="foto3.jpg" alt="Foto 3">
+    </div>
+    <p class="texto">
+      Você com seu gato é simplesmente a cena mais fofa que existe. E quando for comigo do seu lado, vai ser ainda melhor. Eu amo seu jeitinho calmo, carinhoso e esse coração gigante que só me faz querer te amar mais a cada dia. Você é o meu presente da vida inteira.
+    </p>
+
+    <p class="footer">PARA SEMPRE NÓS DOIS!</p>
+
+    <a href="entrada.html" class="voltar">Voltar para a primeira página</a>
+  </div>
+
+</body>
+</html>
